@@ -802,10 +802,6 @@ nav {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .rooms_wrapper .room-items img{
-    height: 20%;
-    width: 50%;
-  }
   .rooms_wrapper .room-items h5, p{
     font-size: 1.7rem;
   }
