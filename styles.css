@@ -50,7 +50,7 @@
   height: .9375rem;
 }
 
-button {
+.button1 {
   position: relative;
   font-size: 1.2em;
   padding: 0.7em 1.4em;
@@ -61,16 +61,16 @@ button {
   color: #DEDEDE;
   box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
 }
-button a{
+.button1 a{
   text-decoration: none;
   color: var(--text-dark);
   font-size: 1.6rem;
 }
-button a:hover{
+.button1 a:hover{
   color: var(--text-dark);
 }
 
-button::before {
+.button1::before {
   position: absolute;
   content: '';
   height: 0;
@@ -83,12 +83,12 @@ button::before {
   transition: 0.3s;
 }
 
-button:hover::before {
+.button1:hover::before {
   width: 1.6em;
   height: 1.6em;
 }
 
-button:active {
+.button1:active {
   box-shadow: 0.2em 0.2em 0.3em rgba(0, 0, 0, 0.3);
   transform: translate(0.1em, 0.1em);
 }
