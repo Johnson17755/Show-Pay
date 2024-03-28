@@ -733,6 +733,7 @@ nav {
 
 .input::placeholder {
   color: #999;
+  font-weight: 500;
 }
 
 .input:focus.input::placeholder {
@@ -840,9 +841,13 @@ nav {
   .memories__grid {
     grid-template-columns: repeat(1, 1fr);
   }
+
   .testimonial p{
     font-size: 1rem;
     font-weight: 800;
+  }
+  #form{
+    margin-top: 29rem;
   }
 
   .lounge__grid {
