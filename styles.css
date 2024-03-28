@@ -153,7 +153,6 @@ a {
 html,
 body {
   position: relative;
-  background-color: var(--black-color);
   font-family: "Poppins", sans-serif;
 }
 
@@ -197,7 +196,7 @@ nav {
 .header .dropdown-item:hover,
 .header .navbar-nav .nav-link:hover{
   color: var(--white-color);
-  background-color: transparent;
+  background-color: var(--black-color);
 }
 
 .header .navbar-nav li:hover> ul.dropdown-menu{
@@ -238,6 +237,7 @@ nav {
 .rooms_wrapper .room-items:hover img{
   -webkit-transform: scale3d(1.05,1.05,1.05);
   transform: scale3d(1.05,1.05,1.05);
+  border-radius: 1rem;
 }
 .rooms_wrapper .room-items::before{
   content: '';
@@ -274,6 +274,8 @@ nav {
   opacity:0;
 }
 .rooms_wrapper .room-items:hover .room-content{
+  white-space: nowrap;
+  text-align: center;
   opacity:1;
   -webkit-transform:scale3d(1,1,1,1);
   transform:scale3d(1,1,1,1);
@@ -770,7 +772,6 @@ nav {
 
 
 /* form end  */
-
 @media (width < 1200px) {
   .section__container.header__container,
   .section__container.plan__container,
