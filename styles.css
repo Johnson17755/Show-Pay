@@ -832,7 +832,10 @@ nav {
   .memories__header {
     flex-direction: column;
   }
-
+  .rooms_wrapper .room-item-wrap{
+    left: .8rem;
+    right: .8rem;
+  }
   .input{
     width: 20rem;
     min-height: 3.5rem;
